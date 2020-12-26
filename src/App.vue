@@ -5,7 +5,7 @@
     <img src="./assets/pokemon.png" alt="">
     <hr>
     <h4 class="is-size-4">POKEDEX</h4>
-    <input class="input is-rounded" type="text"  placeholder="Buscar pkémon pelo nome" v-model="busca">
+    <input class="input is-rounded" type="text"  placeholder="Buscar pokémon pelo nome" v-model="busca">
    <button class="button is-medium is-fullwidth is-success" id="btn" @click="buscar()">Buscar</button>
     <div v-for="(poke,index) in filteredPokemons" :key="poke.url">
     <pokemon :name="poke.name" :url="poke.url" :num="index+1" />
