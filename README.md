@@ -1,3 +1,4 @@
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/KSouzaEng/pokedexVue/master) ![GitHub top language](https://img.shields.io/github/languages/top/KSouzaEng/pokedexVue) ![GitHub language count](https://img.shields.io/github/languages/count/KSouzaEng/pokedexVue)
 # Pokedex
 
 ## Description
@@ -38,6 +39,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
